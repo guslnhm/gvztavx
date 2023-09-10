@@ -1,8 +1,63 @@
 h1{
-    background-color: lightblue;
-    padding: 30px;
-}
-
-body{
-    background-color: firebrick;
-}
+    text-align: right;
+    /*font: 36px Arial, Helvetica, sans-serif;*/
+    color: white;
+    font-family: 'Syne', sans-serif;
+    font-size: 72px;
+    background-color: black;
+    padding: 15px;
+    margin-top: 0px;
+ }
+ 
+ #firstP{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    color: black;
+    /*font: 24px Arial, Helvetica, sans-serif;*/
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    text-align:justify;
+    /*border: 2px solid black;
+    border-radius: 30px;*/
+    margin-top: 15px;
+ }
+ 
+ .fade-in{
+    animation: fadeIn 1s;
+ }
+ 
+ @keyframes fadeIn{
+    0%{
+       opacity: 0;
+    }
+    100%{
+       opacity: 1;
+    }
+ }
+ 
+ .flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Syne', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -35px;
+ }
+ 
+ .boxes{
+     background-color:black;
+     color:white;
+     padding:15px;
+     /*margin: 10px;*/
+     text-align: center;
+     width: 100px;
+ }
+ 
+ .boxes:hover{
+     /*background-color: white;
+     color: black;*/
+     transition: 0.5s;
+     width: 500px;
+ }
